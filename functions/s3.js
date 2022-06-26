@@ -1,4 +1,4 @@
-require('dotenv').config({path : './.env.aws'})
+require('dotenv').config({path : './.env'})
 const s3 = require('aws-sdk/clients/s3')
 const fs = require('fs') //So, that I can able to get the Current path of file in server
 
